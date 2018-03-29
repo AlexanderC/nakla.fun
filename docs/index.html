@@ -114,6 +114,24 @@
     img.logo {
       width: 80px;
     }
+
+    @media screen and (max-width: 400px) {
+      div.logo-suffix {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 350px) {
+      img.logo {
+        width: 65px;
+      }
+    }
+
+    @media screen and (max-width: 320px) {
+      img.logo {
+        display: none;
+      }
+    }
   </style>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -141,7 +159,7 @@
         <div class="media-left">
           <img class="media-object logo" src="./nacl.png" alt="NaCl">
         </div>
-        <div class="media-body">a.fun</div>
+        <div class="media-body logo-suffix">a.fun</div>
       </h3>
     </div>
 
