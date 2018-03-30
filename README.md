@@ -35,7 +35,7 @@ npm run buid
 CI/CD
 
 ```bash
-npm run gh-token -- "your github token"
+npm run gh-token -- "your github token" "your travis token"
 ```
 
 Now open `/docs`- it contains your webpages. Easy, isn't it? =)
