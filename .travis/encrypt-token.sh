@@ -11,4 +11,4 @@ if [ -z $(which travis) ]; then
   exit 1
 fi
 
-echo GH_TOKEN="$1" | travis encrypt --add --no-interactive --repo "AlexanderC/nakla.fun"
+echo GH_TOKEN="$1" | travis encrypt --add --no-interactive --override --org
