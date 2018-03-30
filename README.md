@@ -8,6 +8,19 @@ nakla.fun - is a simple and stupid resource containing pure awesomeness (at leas
 
 Feel free to commit ;)
 
+# How to add stories
+
+1. Locate latest story page in `stories/` by finding `N-xxx.md` where `N` is the buggest one.
+2. Check if the file does not contain too many stories. If yes- create another one using template `{N+1}-anyname.md`.
+3. Add your story using the below formatting.
+
+```text
+
+> "Евреи недолюбливали почтальона Печкина за его фамилию" (Страхов)
+
+---
+```
+
 # Installation and usage
 
 Bootstrapping and build:
