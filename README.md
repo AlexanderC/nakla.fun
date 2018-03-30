@@ -10,17 +10,17 @@ Feel free to commit ;)
 
 # Installation and usage
 
-Bootstrapping:
+Bootstrapping and build:
 
 ```bash
 npm install
-node master --help
+npm run buid
 ```
 
-Build
+CI/CD
 
 ```bash
-node master build
+npm run gh-token -- "your github token"
 ```
 
 Now open `/docs`- it contains your webpages. Easy, isn't it? =)

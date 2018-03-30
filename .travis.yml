@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 7
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+script: npm run build
+after_success:
+- bash .travis/push.sh
+env:
+  global:
+    secure: fueyByh/vo0Dciz2jmU4WoCJlmLoHqstUDW3eHLiKfm+mVMVbWktgSf3IKwstRZIMZMuPLqja8msBLppL5zXngsaJ1d45qQpgHVp9m2hai7S+lBmctazTCS8PB/gughY9BCz6caMS7l/geXYoetWaViZOAXZxR2ITqdWDCGV9Gd4uCyi7pPtSgClZK3sllqAKDA9s1Zhm99zmCp/m2v2yUlFSiwAbhbD9g5R1LGRu0Q0/Ed1BrGdZkad4wNJIlUCXNzpNFQizOaRMdksXwtjyrNUXA5TdFKgPh6E1pHfrXKST0XgCOMUvqn8a+GTfqZOOKAcVThB3mTykWvNRDVAAWLB1c1QY9PjqBvlobrwopQDNlQXHdqThsMg5jLN2T+FWKJMQpVrUAv6QCW4g254rw8mG+DQyNGFFAyfJmG5RHn+DhD1x4po8o3WaRNoKeAquZYC+uAq0G3EQgpmrnDhYlzUMn1ZOv0BEjxhs46A/0QYCbtaamHgauxc76RDWuMaxhx2OzkRLtQ7uMfJOIUsso0Os+ee88DF8lnE/lgDAca06XgdkEyhU5wf5eGmqHXzkiDbrv52tYyFkg4Y5eLFpyTx9sXWvrI8gSs0/+R9S3LmCIlfHAetWkm9ykw40Ye1X2IqesntKlBqkeb/R2jHWuEQLpWGzhtrMAth0VwufTg=
