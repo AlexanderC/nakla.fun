@@ -1,5 +1,7 @@
 # nakla.fun - The Website
 
+[![Build Status](https://travis-ci.org/AlexanderC/nakla.fun.svg?branch=master)](https://travis-ci.org/AlexanderC/nakla.fun)
+
 This repository contains sources for [nakla.fun](nakla.fun) website.
 
 # Idea behind it

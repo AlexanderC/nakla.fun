@@ -1,17 +1,27 @@
 #!/bin/bash
 
+EMAIL="alexander.moldova@gmail.com"
+USERNAME="AlexanderC"
+REMOTE="https://${GH_TOKEN}@github.com/AlexanderC/nakla.fun.git"
+
 setup_git() {
-  git config --global user.email "alexander.cucer@titanium-soft.com"
-  git config --global user.name "AlexanderC"
+  echo "Setup git for $USERNAME"
+  
+  git config --global user.email "$EMAIL"
+  git config --global user.name "$USERNAME"
 }
 
 commit_website_files() {
+  echo "Add changes to git"
+
   git add ./docs
   git commit -a -m "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
-  git remote add origin https://${GH_TOKEN}@github.com/AlexanderC/nakla.fun.git > /dev/null 2>&1
+  echo "Push to remote $REMOTE"
+
+  git remote add origin "$REMOTE" > /dev/null 2>&1
   git push --quiet --set-upstream origin master
 }
 
