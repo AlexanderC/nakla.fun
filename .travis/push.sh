@@ -26,7 +26,7 @@ upload_files() {
   git push --quiet --set-upstream origin master || exit 1
 }
 
-if [ echo "$TRAVIS_COMMIT_MESSAGE" | grep "$MARK" ]; then
+if [ ! -z $(echo "$TRAVIS_COMMIT_MESSAGE" | grep "$MARK") ]; then
   echo "Skipping..."
   exit 0
 fi
