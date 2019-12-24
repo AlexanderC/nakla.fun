@@ -1,12 +1,12 @@
-# nakla.fun - The Website
+# wisdom.titanium.codes
 
 [![Build Status](https://travis-ci.org/AlexanderC/nakla.fun.svg?branch=master)](https://travis-ci.org/AlexanderC/nakla.fun)
 
-This repository contains sources for [nakla.fun](nakla.fun) website.
+This repository contains sources for [wisdom.titanium.codes](wisdom.titanium.codes) website.
 
 # Idea behind it
 
-nakla.fun - is a simple and stupid resource containing pure awesomeness (at least we think so o_O).
+wisdom.titanium.codes - is a simple and stupid resource containing pure awesomeness (at least we think so o_O).
 
 Feel free to commit ;)
 
@@ -44,14 +44,9 @@ Now open `/docs`- it contains your webpages. Easy, isn't it? =)
 
 # Available Themes
 
-- `saf` - Simple as F**k
+- `saf` - Simple as F\**k
 
 # Roadmap
 
 None =)
 
-# Support
-
-I'll leave it here...
-
-<a href="https://etherdonation.com/d?to=0x4a1eade6b3780b50582344c162a547d04e4e8e4a" target="_blank" title="Donate ETH"><img src="https://etherdonation.com/i/btn/donate-btn.png" alt="Donate ETH"/></a>
