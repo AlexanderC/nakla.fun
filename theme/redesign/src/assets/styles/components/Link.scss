@@ -1,0 +1,14 @@
+@import '../variables.scss';
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.6rem;
+  color: $color-white;
+  transition: all 0.4s;
+  padding: 15px;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 45px;
+}

@@ -1,0 +1,29 @@
+@import './variables.scss';
+
+@media screen and (min-width: 1025px) {
+  .page-404-wrapper .link-not-found:hover {
+    transform: scale(1.2);
+    color: $color-yellow;
+  }
+
+  .nav-link:hover {
+    color: $color-yellow;
+  }
+
+  .navigation-wrapper:hover {
+    .navigation-overlay {
+      opacity: 1;
+    }
+    .navigation-content a.nav-link {
+      font-size: 0.7rem;
+    }
+
+    .navigation-title {
+      font-size: 0.7rem;
+    }
+  }
+
+  .navigation-title:hover {
+    color: $color-yellow;
+  }
+}
