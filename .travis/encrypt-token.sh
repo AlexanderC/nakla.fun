@@ -17,4 +17,4 @@ if [ -z $(which travis) ]; then
   exit 1
 fi
 
-echo GH_TOKEN="$1" | travis encrypt --add --no-interactive --override --org --token "$2"
+travis encrypt GH_TOKEN="$1" --add --override --org --token "$2"

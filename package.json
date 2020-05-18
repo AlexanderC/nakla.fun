@@ -5,7 +5,8 @@
   "main": "master/index.js",
   "scripts": {
     "build": "node master build",
-    "gh-token": "bash .travis/encrypt-token.sh" 
+    "build:redesign": "bash .travis/build-redesign.sh",
+    "gh-token": "bash .travis/encrypt-token.sh"
   },
   "repository": {
     "type": "git",
