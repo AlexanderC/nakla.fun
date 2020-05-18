@@ -16,7 +16,7 @@
   background-color: $color-black;
 }
 
-.animation-start {
+.animation-start-next {
   animation: zoomOutW 0.4s linear forwards, fadeOutW 0.4s linear forwards;
 
   .wisdom-content {
@@ -24,7 +24,15 @@
   }
 }
 
-.animation-end {
+.animation-start-prev {
+  animation: zoomOutW 0.4s linear forwards, fadeOutW 0.4s linear forwards;
+
+  .wisdom-content {
+    animation: slideOutWPrev 0.4s ease-in-out forwards;
+  }
+}
+
+.animation-end-next {
   animation: zoomInW 0.4s linear forwards, fadeInW 0.4s linear forwards;
 
   .wisdom-content {
@@ -32,7 +40,16 @@
   }
 }
 
+.animation-end-prev {
+  animation: zoomInW 0.4s linear forwards, fadeInW 0.4s linear forwards;
+
+  .wisdom-content {
+    animation: slideInWPrev 0.4s ease-in-out;
+  }
+}
+
 .wisdom-content {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -143,12 +160,29 @@
   }
 }
 
+@keyframes slideInWPrev {
+  from {
+    transform: translateX(-120%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 @keyframes slideOutW {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-200%);
+  }
+}
+@keyframes slideOutWPrev {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200%);
   }
 }
 

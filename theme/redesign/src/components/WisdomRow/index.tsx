@@ -13,7 +13,7 @@ const Row: FC<Props> = ({ current }) => {
       {current.map((elem: wisdomContent) => {
         const onlyOneWisdom = current.length <= 1;
         const wisdomLength = elem.wisdom.length;
-        const noAuthor = elem.author.length === 0 ? true : false;
+        const noAuthor = elem.author.length === 0;
         const classes = `wisdom-row ${onlyOneWisdom ? 'single' : ''} ${
           wisdomLength >= 70 ? 'small' : ''
         }`;
