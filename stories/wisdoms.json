@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+1.png",
+    "image": "Frame 1-min.png",
     "content": [
       {
         "wisdom": "Кучер, ты какой-то вредный сегодня",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+2.png",
+    "image": "Frame 2-min.jpg",
     "content": [
       {
         "wisdom": "Никогда не бросайте друга в биде",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+3.png",
+    "image": "Frame 3-min.png",
     "content": [
       {
         "wisdom": "Там есть самая большая ледяная пещера в мире!",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+4.png",
+    "image": "Frame 4-min.jpg",
     "content": [
       {
         "wisdom": "Я вот в Шанхае был, там в небоскребе туалет как в Японии - куча кнопок, поливает под любым углом...",
@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+5.png",
+    "image": "Frame 5-min.png",
     "content": [
       {
         "wisdom": "Надо бы куда-нибудь сьездить - в Японию, например, хотел бы...",
@@ -79,7 +79,7 @@
   },
   {
     "id": 6,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+6.png",
+    "image": "Frame 6-min.png",
     "content": [
       {
         "wisdom": "Страхов, ты как-будто под травой",
@@ -97,7 +97,7 @@
   },
   {
     "id": 7,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+7.png",
+    "image": "Frame 7-min.jpg",
     "content": [
       {
         "wisdom": "Буханочка. То же самое что и Дюймовочка, только Буханочка. Прям спрашивает у зеркальца: Я ль на свете всех бухей, всех прекрасней и синей? А зеркальце отвечает - ты бухая, спору нет...",
@@ -107,7 +107,7 @@
   },
   {
     "id": 8,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+8.png",
+    "image": "Frame 8-min.png",
     "content": [
       {
         "wisdom": "Первое что бросилось в глаза это звук",
@@ -117,7 +117,7 @@
   },
   {
     "id": 9,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+10.png",
+    "image": "Frame 10-min.png",
     "content": [
       {
         "wisdom": "В этой комнате воздух на вкус прям кислый",
@@ -131,7 +131,7 @@
   },
   {
     "id": 10,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+11.png",
+    "image": "Frame 11-min.png",
     "content": [
       {
         "wisdom": "Христос воскрес",
@@ -149,7 +149,7 @@
   },
   {
     "id": 11,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+12.png",
+    "image": "Frame 12-min.jpg",
     "content": [
       {
         "wisdom": "Двадцать семь это последний возраст когда можно скурткобейниться",
@@ -159,7 +159,7 @@
   },
   {
     "id": 12,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+13.png",
+    "image": "Frame 13-min.jpg",
     "content": [
       {
         "wisdom": "Как называется эта хуйня с яйцами?",
@@ -173,7 +173,7 @@
   },
   {
     "id": 13,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+14.png",
+    "image": "Frame 14-min.png",
     "content": [
       {
         "wisdom": "Я ей показал новый баг... лучше бы я ей ничего не показывал",
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+16.png",
+    "image": "Frame 16-min.png",
     "content": [
       {
         "wisdom": "Хватит меня смешить, я не могу попасть в розетку ... да ебаная дырка!",
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+17.png",
+    "image": "Frame 17-min.png",
     "content": [
       {
         "wisdom": "А зачем нужен Startup Weekend для женщин?",
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+19.png",
+    "image": "Frame 19-min.png",
     "content": [
       {
         "wisdom": "Блять, Страхов, ты прямо вестник деградации!",
@@ -225,7 +225,7 @@
   },
   {
     "id": 17,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+20.png",
+    "image": "Frame 20-min.png",
     "content": [
       {
         "wisdom": "Не бывает некрасивых женщин...",
@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+21.png",
+    "image": "Frame 21-min.png",
     "content": [
       {
         "wisdom": "Знаешь сжатый воздух?",
@@ -257,7 +257,7 @@
   },
   {
     "id": 19,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+23.png",
+    "image": "Frame 23-min.png",
     "content": [
       {
         "wisdom": "Порхай как бабочка, жаль что ты пидор",
@@ -267,7 +267,7 @@
   },
   {
     "id": 20,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+24.png",
+    "image": "Frame 24-min.png",
     "content": [
       {
         "wisdom": "Что такое CTO? Это болезнь, как ДЦП?",
@@ -277,7 +277,7 @@
   },
   {
     "id": 21,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+25.png",
+    "image": "Frame 25-min.png",
     "content": [
       {
         "wisdom": "Мне спойлеры не страшны!",
@@ -295,7 +295,7 @@
   },
   {
     "id": 22,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+26.png",
+    "image": "Frame 26-min.png",
     "content": [
       {
         "wisdom": "Саша (Кучер), как ты с этими клоунами работаешь?",
@@ -309,7 +309,7 @@
   },
   {
     "id": 23,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+27.png",
+    "image": "Frame 27-min.png",
     "content": [
       {
         "wisdom": "Мы за классический Скайп!",
@@ -331,7 +331,7 @@
   },
   {
     "id": 24,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+28.png",
+    "image": "Frame 28-min.png",
     "content": [
       {
         "wisdom": "Илюха - звезда порнухи",
@@ -349,7 +349,7 @@
   },
   {
     "id": 25,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+29.png",
+    "image": "Frame 29-min.png",
     "content": [
       {
         "wisdom": "Ты ж программист!",
@@ -363,7 +363,7 @@
   },
   {
     "id": 26,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+30.png",
+    "image": "Frame 30-min.png",
     "content": [
       {
         "wisdom": "До этого разговора, Вадим, если кто не знал что ты живешь на Старушке (т.е Старая Почта) - уже знает!",
@@ -381,7 +381,7 @@
   },
   {
     "id": 27,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+31.png",
+    "image": "Frame 31-min.png",
     "content": [
       {
         "wisdom": "Почему Вадим картошка?",
@@ -399,7 +399,7 @@
   },
   {
     "id": 28,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+32.png",
+    "image": "Frame 32-min.png",
     "content": [
       {
         "wisdom": "Ваня, а у тебя какого (числа) день рожденья?",
@@ -413,7 +413,7 @@
   },
   {
     "id": 29,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+33.png",
+    "image": "Frame 33-min.png",
     "content": [
       {
         "wisdom": "Союз не рушимый транзакций валидных",
@@ -435,7 +435,7 @@
   },
   {
     "id": 30,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+34.png",
+    "image": "Frame 34-min.png",
     "content": [
       {
         "wisdom": "Славься, сообщество наше свободное",
@@ -457,7 +457,7 @@
   },
   {
     "id": 31,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+35.png",
+    "image": "Frame 35-min.png",
     "content": [
       {
         "wisdom": "От сальных волос до роскошной Ферарри,",
@@ -479,7 +479,7 @@
   },
   {
     "id": 32,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+36.png",
+    "image": "Frame 36-min.png",
     "content": [
       {
         "wisdom": "Кровавыми блоками построим мы чейн",
@@ -501,7 +501,7 @@
   },
   {
     "id": 33,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+37.png",
+    "image": "Frame 37-min.png",
     "content": [
       {
         "wisdom": "Хочешь мое мнение?",
@@ -515,7 +515,7 @@
   },
   {
     "id": 34,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+38.png",
+    "image": "Frame 38-min.png",
     "content": [
       {
         "wisdom": "Была Лена дизайнер но она забеременела.",
@@ -533,7 +533,7 @@
   },
   {
     "id": 35,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+39.png",
+    "image": "Frame 39-min.png",
     "content": [
       {
         "wisdom": "Не понимаю прикол с перепелиными яйцами",
@@ -547,7 +547,7 @@
   },
   {
     "id": 36,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+40.png",
+    "image": "Frame 40-min.png",
     "content": [
       {
         "wisdom": "У меня есть чай который пахнет кальяном",
@@ -565,7 +565,7 @@
   },
   {
     "id": 37,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+41.png",
+    "image": "Frame 41-min.png",
     "content": [
       {
         "wisdom": "У нас что-то будет?",
@@ -579,7 +579,7 @@
   },
   {
     "id": 38,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+43.png",
+    "image": "Frame 43-min.png",
     "content": [
       {
         "wisdom": "Ваня, ты моя нелюбимая жена!",
@@ -597,7 +597,7 @@
   },
   {
     "id": 39,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+44.png",
+    "image": "Frame 44-min.png",
     "content": [
       {
         "wisdom": "Ваня, ты как очень умный попугай",
@@ -619,7 +619,7 @@
   },
   {
     "id": 40,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+45.png",
+    "image": "Frame 45-min.png",
     "content": [
       {
         "wisdom": "Как ты, как ты, попой нюхают цветы",
@@ -629,7 +629,7 @@
   },
   {
     "id": 41,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+47.png",
+    "image": "Frame 47-min.png",
     "content": [
       {
         "wisdom": "Могу показать тебе несколько разных фоток - они все разные",
@@ -639,7 +639,7 @@
   },
   {
     "id": 42,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+49.png",
+    "image": "Frame 49-min.png",
     "content": [
       {
         "wisdom": "Вазелин для детей “Непоседа” - моя первая косметика!",
@@ -649,7 +649,7 @@
   },
   {
     "id": 43,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+50.png",
+    "image": "Frame 50-min.png",
     "content": [
       {
         "wisdom": "Я пилил фронтенд как настоящий бэкенд девелопер!",
@@ -659,7 +659,7 @@
   },
   {
     "id": 44,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+52.png",
+    "image": "Frame 52-min.png",
     "content": [
       {
         "wisdom": "Для взрослых настольных игр нужен только стол.",
@@ -669,7 +669,7 @@
   },
   {
     "id": 45,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+54.png",
+    "image": "Frame 54-min.png",
     "content": [
       {
         "wisdom": "Евреи недолюбливали почтальона Печкина за его фамилию",
@@ -679,7 +679,7 @@
   },
   {
     "id": 46,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+55.png",
+    "image": "Frame 55-min.png",
     "content": [
       {
         "wisdom": "Земля не блядь - можно поднять.",
@@ -693,7 +693,7 @@
   },
   {
     "id": 47,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+57.png",
+    "image": "Frame 57-min.png",
     "content": [
       {
         "wisdom": "Потереби эбонитовую палочку",
@@ -707,7 +707,7 @@
   },
   {
     "id": 48,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+58.png",
+    "image": "Frame 58-min.png",
     "content": [
       {
         "wisdom": "Про код и линтер - “Мое все чистое а остальное красное”",
@@ -721,7 +721,7 @@
   },
   {
     "id": 49,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+59.png",
+    "image": "Frame 59-min.png",
     "content": [
       {
         "wisdom": "Рука потеет, писюн балдеет",
@@ -731,7 +731,7 @@
   },
   {
     "id": 50,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+60.png",
+    "image": "Frame 60-min.png",
     "content": [
       {
         "wisdom": "Я еще не был (в туалете) за весь день",
@@ -749,7 +749,7 @@
   },
   {
     "id": 51,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+61.png",
+    "image": "Frame 61-min.png",
     "content": [
       {
         "wisdom": "Ты что, цыган?",
@@ -763,7 +763,7 @@
   },
   {
     "id": 52,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+62.png",
+    "image": "Frame 62-min.png",
     "content": [
       {
         "wisdom": "В тихом омуте гоблины трахаются",
@@ -773,7 +773,7 @@
   },
   {
     "id": 53,
-    "image": "https://titanium-wisdom.s3-eu-west-1.amazonaws.com/images/Frame+63.png",
+    "image": "Frame 63-min.png",
     "content": [
       {
         "wisdom": "Я напишу либу которая тебе будет давать",

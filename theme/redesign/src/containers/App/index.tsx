@@ -11,7 +11,7 @@ import { incrementSteps, resetSteps, setFirstWisdom, fetchWisdoms } from 'store/
 
 import { StoreInterface } from 'interfaces';
 import { getWisdoms } from 'api';
-import DummyWisdoms from 'dummy-data/wisdoms.json';
+import DummyWisdoms from 'fallback-data/wisdoms.json';
 
 import 'assets/styles/containers/App.scss';
 
