@@ -14,36 +14,53 @@ const Wisdom = () => {
     finished: false,
   });
   const [classes, setClasses] = useState('animation-end');
+  const [direction, setDirection] = useState<'next' | 'prev'>('next');
   const {
     wisdoms,
-    wisdomsMap: { current, next },
+    wisdomsMap: { current, next, prev },
   } = useSelector((s: StoreInterface) => s);
   const history = useHistory();
 
+  const handleChangeWisdom = (direction: 'prev' | 'next') => {
+    setDirection(direction);
+    setAnimations({ ...animations, start: true });
+  };
+
   useEffect(() => {
-    if (current && next) {
+    const changeWisdom = (e: KeyboardEvent) => {
+      if (e.code === 'ArrowLeft') {
+        handleChangeWisdom('prev');
+      }
+      if (e.code === 'ArrowRight') {
+        handleChangeWisdom('next');
+      }
+    };
+    document.addEventListener('keydown', changeWisdom);
+    return () => document.removeEventListener('keydown', changeWisdom);
+  });
+
+  useEffect(() => {
+    if (current && next && prev) {
+      const isPrev = direction === 'prev';
+
       if (animations.start) {
-        setClasses('animation-start');
+        setClasses(`animation-start-${isPrev ? 'prev' : 'next'}`);
         setTimeout(() => {
           setAnimations({ ...animations, start: false, inProgress: true });
         }, 400);
       }
 
       if (animations.inProgress) {
-        history.push(`/wisdoms/${next.id.toString()}`);
+        history.push(`/wisdoms/${isPrev ? prev.id.toString() : next.id.toString()}`);
         setAnimations({ ...animations, inProgress: false, finished: true });
       }
 
       if (animations.finished) {
-        setClasses('animation-end');
+        setClasses(`animation-end-${isPrev ? 'prev' : 'next'}`);
         setAnimations({ ...animations, finished: false });
       }
     }
-  }, [animations, history, wisdoms, next, current]);
-
-  const handleClick = () => {
-    setAnimations({ ...animations, start: true });
-  };
+  }, [animations, history, wisdoms, next, current, direction, prev]);
 
   if (current) {
     return (
@@ -53,8 +70,11 @@ const Wisdom = () => {
           backgroundImage: `url(${current.image})`,
         }}
       >
-        <div className="wisdom-content">
-          <div className="one-wisdom-wrapper" onClick={() => handleClick()}>
+        <div
+          className="wisdom-content"
+          onClick={e => handleChangeWisdom(e.clientX < window.innerWidth / 2 ? 'prev' : 'next')}
+        >
+          <div className="one-wisdom-wrapper">
             <Row current={current.content} />
           </div>
         </div>
