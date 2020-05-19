@@ -7,6 +7,8 @@ import { StoreInterface } from 'interfaces';
 
 import 'assets/styles/components/Wisdom.scss';
 
+const BASE_IMAGE_URL = 'https://raw.githubusercontent.com/AlexanderC/nakla.fun/master/stories/images/';
+
 const Wisdom = () => {
   const [animations, setAnimations] = useState({
     start: false,
@@ -67,15 +69,17 @@ const Wisdom = () => {
       <div
         className={`wisdom ${classes}`}
         style={{
-          backgroundImage: `url(${current.image})`,
+          backgroundImage: `url(${BASE_IMAGE_URL}${current.image.replace(' ', '%20')})`,
         }}
       >
-        <div
-          className="wisdom-content"
-          onClick={e => handleChangeWisdom(e.clientX < window.innerWidth / 2 ? 'prev' : 'next')}
-        >
-          <div className="one-wisdom-wrapper">
-            <Row current={current.content} />
+        <div className="black-filter">
+          <div
+            className="wisdom-content"
+            onClick={e => handleChangeWisdom(e.clientX < window.innerWidth / 2 ? 'prev' : 'next')}
+          >
+            <div className="one-wisdom-wrapper">
+              <Row current={current.content} />
+            </div>
           </div>
         </div>
       </div>

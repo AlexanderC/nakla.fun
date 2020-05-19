@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'https://titanium-wisdom.s3-eu-west-1.amazonaws.com';
+const baseUrl = 'https://raw.githubusercontent.com/AlexanderC/nakla.fun/master/stories';
 
 const request = async () => {
   return await axios.get(`${baseUrl}/wisdoms.json`);
